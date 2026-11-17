@@ -1,0 +1,144 @@
+{
+  "items": [
+    {
+      "slug": "residential",
+      "title": "Residential Construction",
+      "status": "inquiries",
+      "statusNote": "We're starting with repairs, accessibility upgrades and small-to-medium renovations. Additions, accessory dwelling units and custom homes will follow as our crews and capacity grow.",
+      "summary": "Renovations, additions and home improvements planned carefully and delivered with clear pricing, steady communication and respect for the home you live in.",
+      "audience": "Homeowners, families and people planning to age in place.",
+      "includes": [
+        "Renovations and interior improvements",
+        "Accessibility and aging-in-place upgrades: ramps, rails, entrances and bathrooms",
+        "Kitchens, bathrooms and living spaces adapted for real life",
+        "Additions and accessory dwelling units (ADUs)",
+        "Custom homes (planned)"
+      ],
+      "image": "/images/brand/kitchen-consult",
+      "imageAlt": "A woman contractor in a Level Headed cap reviews renovation plans at a kitchen counter with an older homeowner.",
+      "ctaLabel": "Request a quote",
+      "ctaInquiry": "quote"
+    },
+    {
+      "slug": "commercial-institutional",
+      "title": "Commercial & Institutional",
+      "status": "inquiries",
+      "statusNote": "We take on smaller commercial and institutional projects that match our current crew and insurance. Ask us about scope and we'll tell you honestly whether it's a fit.",
+      "summary": "Renovations, facility improvements and specialty projects for organizations that need reliable work done with minimal disruption.",
+      "audience": "Small businesses, nonprofits, community organizations and institutions.",
+      "includes": [
+        "Interior renovations and tenant improvements",
+        "Facility repairs and improvements",
+        "Accessibility upgrades for public-facing spaces",
+        "Small commercial and specialty projects"
+      ],
+      "image": "/images/brand/site-assessment",
+      "imageAlt": "A woman in a Level Headed hoodie takes notes on a clipboard while assessing the exterior of a building.",
+      "ctaLabel": "Discuss a project",
+      "ctaInquiry": "quote"
+    },
+    {
+      "slug": "social-cooperative-housing",
+      "title": "Social & Co-operative Housing",
+      "status": "inquiries",
+      "summary": "Dependable unit turnovers and property work for housing providers, so homes get back to the people who need them, sooner.",
+      "audience": "Housing co-operatives, nonprofit and social housing providers, and property managers.",
+      "includes": [
+        "Unit turnovers and vacancy renovations",
+        "Patching, painting, flooring, fixtures and safety fixes",
+        "Move-in readiness and repair programs",
+        "Property improvements and capital repairs",
+        "Ongoing maintenance and renovation partnerships"
+      ],
+      "image": "/images/brand/drill-siding",
+      "imageAlt": "A woman wearing safety glasses and work gloves uses a cordless drill on exterior siding.",
+      "ctaLabel": "Talk to us about your portfolio",
+      "ctaInquiry": "quote"
+    },
+    {
+      "slug": "panelized-construction",
+      "title": "Panelized Construction",
+      "status": "planned",
+      "statusNote": "We deliver panelized work through fabrication and installation partnerships. We do not own or operate a panel manufacturing facility.",
+      "summary": "Panelized building solutions for our own projects and for qualified partners, bringing more predictability, speed and repeatability to housing delivery.",
+      "audience": "Housing providers, developers, municipalities and general contractors.",
+      "includes": [
+        "Panelized building systems for additions, ADUs and housing",
+        "Framing and structural assemblies",
+        "Fabrication and installation partnerships",
+        "Design and site coordination",
+        "Repeatable building designs",
+        "Construction efficiency and housing delivery opportunities"
+      ],
+      "image": "/images/brand/portrait-framing",
+      "imageAlt": "A woman in a Level Headed cap and hoodie stands in front of timber framing on a construction site.",
+      "ctaLabel": "Explore a partnership",
+      "ctaInquiry": "partnership"
+    },
+    {
+      "slug": "construction-management",
+      "title": "Construction Management",
+      "status": "inquiries",
+      "summary": "Organized projects with a clear scope, a real budget and one accountable lead, so owners always know what's happening and why.",
+      "audience": "Property owners, organizations and housing providers.",
+      "includes": [
+        "Project planning and estimating",
+        "Scheduling and coordination",
+        "Cost control and job costing",
+        "Subcontractor management",
+        "Quality oversight and closeout"
+      ],
+      "ctaLabel": "Discuss your project",
+      "ctaInquiry": "consulting"
+    },
+    {
+      "slug": "construction-consulting",
+      "title": "Construction Consulting",
+      "status": "inquiries",
+      "summary": "Practical advice from people who have run the work, to help you make better decisions before and during a project.",
+      "audience": "Owners, nonprofits, housing providers and construction businesses.",
+      "includes": [
+        "Owner representation",
+        "Project advisory",
+        "Construction operations improvement",
+        "Development feasibility support"
+      ],
+      "ctaLabel": "Book a conversation",
+      "ctaInquiry": "consulting"
+    },
+    {
+      "slug": "maintenance-property-improvements",
+      "title": "Maintenance & Property Improvements",
+      "status": "inquiries",
+      "summary": "Repairs and maintenance that keep homes and buildings safe, functional and looking their best, before small problems become big ones.",
+      "audience": "Homeowners, property managers and housing providers.",
+      "includes": [
+        "Repairs and adaptations",
+        "Home safety and accessibility assessments",
+        "Preventative maintenance programs",
+        "Property turnover services",
+        "Small renovations"
+      ],
+      "image": "/images/brand/grab-bar",
+      "imageAlt": "A woman wearing safety glasses installs a stainless-steel grab bar in a tiled shower.",
+      "ctaLabel": "Request a quote",
+      "ctaInquiry": "quote"
+    },
+    {
+      "slug": "housing-community-development",
+      "title": "Housing & Community Development",
+      "status": "planned",
+      "statusNote": "These are longer-term goals that we will pursue with partners when the work, people and financing support them.",
+      "summary": "Future projects that expand attainable housing: accessory units, shared and intentional living, and partner-led housing delivery.",
+      "audience": "Municipalities, housing partners, landowners and community organizations.",
+      "includes": [
+        "Attainable housing projects",
+        "Shared, multigenerational and intentional living",
+        "Accessory dwelling units",
+        "Innovative construction partnerships"
+      ],
+      "ctaLabel": "Start a conversation",
+      "ctaInquiry": "partnership"
+    }
+  ]
+}

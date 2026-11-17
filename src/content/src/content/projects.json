@@ -1,0 +1,34 @@
+{
+  "items": [
+    {
+      "slug": "sample-project-template",
+      "published": false,
+      "title": "Sample Project (Template, Not Published)",
+      "location": "Town, Ontario",
+      "categories": [
+        "Renovations"
+      ],
+      "projectType": "Bathroom accessibility renovation",
+      "scope": [
+        "Demolition",
+        "Curbless shower",
+        "Grab bars",
+        "Lighting"
+      ],
+      "coverImage": "/images/brand/grab-bar",
+      "coverAlt": "Describe what the photo shows.",
+      "gallery": [],
+      "description": "This entry is a template showing every field a project page supports. It is never shown on the live site while published is false. Copy it, replace the text and photos with a real completed project, and set published to true.",
+      "challenges": "What made the job tricky?",
+      "solutions": "How the crew solved it.",
+      "outcomes": "What changed for the client.",
+      "testimonial": {
+        "quote": "",
+        "name": "",
+        "role": "",
+        "approved": false
+      },
+      "completed": "2027-01"
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "pathways": [
+    {
+      "title": "Experienced Tradeswomen",
+      "text": "Carpenters, generalists, journeypersons and trade-business owners who want to do great work on a crew that has their back."
+    },
+    {
+      "title": "Construction Managers",
+      "text": "People who can plan, price and run projects with clear scope, budget and accountability."
+    },
+    {
+      "title": "Site Supervisors & Forewomen",
+      "text": "Leaders who keep sites safe, organized and moving, and who teach as they go."
+    },
+    {
+      "title": "Apprentices",
+      "text": "Women working toward a trade who want real experience, support and progression."
+    },
+    {
+      "title": "Career Changers",
+      "text": "Women coming from other fields who are ready to learn and bring strong transferable skills."
+    },
+    {
+      "title": "Office & Operations Professionals",
+      "text": "Estimating, scheduling, purchasing, finance and admin: the systems that support the field."
+    },
+    {
+      "title": "Mentors & Trainers",
+      "text": "Experienced women who want to pass on what they know through the Academy."
+    },
+    {
+      "title": "Professional Partners",
+      "text": "Women-owned trades, designers, engineers and professionals who want to collaborate on projects."
+    }
+  ],
+  "openings": [
+    {
+      "slug": "sample-opening-template",
+      "published": false,
+      "title": "Sample Role (Template, Not Published)",
+      "type": "Full-time",
+      "location": "Midland and area",
+      "summary": "Template entry. Real openings appear on the Join the Crew page only when published is true.",
+      "postedDate": "2027-01-15",
+      "closingDate": ""
+    }
+  ]
+}

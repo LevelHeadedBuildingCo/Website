@@ -1,0 +1,40 @@
+{
+  "companyName": "Level Headed Building Co.",
+  "shortName": "Level Headed",
+  "siteUrl": "",
+  "locationLabel": "Midland, Ontario",
+  "serviceArea": [
+    "Midland",
+    "Penetanguishene",
+    "Simcoe County",
+    "Georgian Bay",
+    "Muskoka"
+  ],
+  "contact": {
+    "email": "",
+    "phone": "",
+    "streetAddress": "",
+    "city": "Midland",
+    "province": "ON",
+    "postalCode": "",
+    "hours": ""
+  },
+  "social": [],
+  "announcement": {
+    "enabled": false,
+    "text": "",
+    "linkLabel": "",
+    "linkUrl": ""
+  },
+  "newsletter": {
+    "enabled": false,
+    "heading": "Stay in the Loop",
+    "text": "Workshop dates, Academy updates and news from the crew. No spam, and you can unsubscribe at any time."
+  },
+  "imageryNote": "Photographs on this site are illustrative brand imagery. Level Headed project photography will be added as work is completed.",
+  "legal": {
+    "reviewed": false,
+    "effectiveDate": "",
+    "privacyContactEmail": ""
+  }
+}

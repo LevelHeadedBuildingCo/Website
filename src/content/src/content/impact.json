@@ -1,0 +1,44 @@
+{
+  "items": [
+    {
+      "key": "women-trained",
+      "label": "Women trained",
+      "value": "",
+      "verified": false,
+      "asOf": "",
+      "description": "Participants who completed an Academy program or workshop."
+    },
+    {
+      "key": "jobs-created",
+      "label": "Jobs created",
+      "value": "",
+      "verified": false,
+      "asOf": "",
+      "description": "Paid positions created at Level Headed and through partner placements."
+    },
+    {
+      "key": "mentorship-hours",
+      "label": "Mentorship hours",
+      "value": "",
+      "verified": false,
+      "asOf": "",
+      "description": "Logged one-to-one and group mentorship hours."
+    },
+    {
+      "key": "projects-delivered",
+      "label": "Projects delivered",
+      "value": "",
+      "verified": false,
+      "asOf": "",
+      "description": "Completed client projects and housing units turned over."
+    },
+    {
+      "key": "career-progression",
+      "label": "Career progressions",
+      "value": "",
+      "verified": false,
+      "asOf": "",
+      "description": "Crew members who advanced to apprenticeship, certification or leadership roles."
+    }
+  ]
+}
