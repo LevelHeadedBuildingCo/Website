@@ -28,7 +28,7 @@ export function Home() {
         <div className="container hero-inner">
           <div>
             <p className="eyebrow">Women-led construction · {site.locationLabel}</p>
-            <h1 id="hero-title">Changing who gets to <em>build the future.</em></h1>
+            <h1 id="hero-title">Changing Who Gets to <em>Build the Future.</em></h1>
             <p className="lede">
               We’re a women-led construction company building exceptional spaces, developing skilled tradespeople, and
               creating real opportunities for women in construction.
@@ -44,7 +44,7 @@ export function Home() {
               <RoofLine className="hero-roof" />
               <Photo src="/images/brand/hero-portrait" alt="A woman in a navy Level Headed Building Co. hoodie and cap stands on a timber-framed construction site."
                 width={342} height={408} eager />
-              <div className="hero-tag"><strong>Women-owned. Women-led.</strong>Built to last.</div>
+              <div className="hero-tag"><strong>Women-Owned.</strong><strong>Women-Led.</strong><span>Built to Last.</span></div>
             </div>
             <p className="photo-note">Illustrative brand imagery</p>
           </div>
@@ -54,7 +54,7 @@ export function Home() {
       {/* WHAT WE DO */}
       <section className="section paper" aria-labelledby="what-we-do">
         <div className="container">
-          <SectionHead eyebrow="What we do" title="A construction company with a mission built in." id="what-we-do">
+          <SectionHead eyebrow="What we do" title="A Construction Company with a Mission Built In." id="what-we-do">
             We aren’t a charity that happens to do construction. We’re a professional construction business, and the way we
             operate creates real pathways for women to enter, grow, lead and thrive in the industry.
           </SectionHead>
@@ -74,7 +74,7 @@ export function Home() {
       {/* SERVICES */}
       <section className="section ivory" aria-labelledby="services-title">
         <div className="container">
-          <SectionHead eyebrow="Our services" title="Dependable construction for homes, housing providers and organizations." id="services-title">
+          <SectionHead eyebrow="Our services" title="Dependable Construction for Homes, Housing Providers and Organizations." id="services-title">
             We’re starting with small, high-trust jobs close to home, and growing deliberately into larger projects as our crews do.
           </SectionHead>
           <div className="grid grid-3">
@@ -108,7 +108,7 @@ export function Home() {
           <div className="split" style={{ alignItems: 'end', marginBottom: '2.5rem' }}>
             <div className="section-head mb-0" style={{ marginBottom: 0 }}>
               <p className="eyebrow">Featured work</p>
-              <h2 id="work-title" className="mb-0">Real work, shown as it’s completed.</h2>
+              <h2 id="work-title" className="mb-0">Real Work, Shown as It’s Completed.</h2>
             </div>
             <p className="muted mb-0">
               We only show real Level Headed work, so this portfolio will grow as projects are completed: renovations,
@@ -116,9 +116,9 @@ export function Home() {
             </p>
           </div>
           <div className="grid grid-3">
-            <PlaceholderPhoto title="Accessibility renovation" />
-            <PlaceholderPhoto title="Housing unit turnover" />
-            <PlaceholderPhoto title="Residential renovation" />
+            <PlaceholderPhoto title="Accessibility Renovation" />
+            <PlaceholderPhoto title="Housing Unit Turnover" />
+            <PlaceholderPhoto title="Residential Renovation" />
           </div>
           <div className="mt-2"><Link to="/our-work" className="text-link">Visit the portfolio <ArrowRight width={16} height={16} /></Link></div>
         </div>
@@ -132,7 +132,7 @@ export function Home() {
           </div>
           <div>
             <p className="eyebrow">Meet Level Headed</p>
-            <h2 id="meet-title">Craftsmanship and opportunity, built into how we work.</h2>
+            <h2 id="meet-title">Craftsmanship and Opportunity, Built into How We Work.</h2>
             <p>
               Level Headed Building Co. is a women-owned, women-led construction company based in Midland, Ontario. We bring
               experienced construction professionals and skilled tradeswomen together to deliver organized, careful work and
@@ -153,7 +153,7 @@ export function Home() {
           </div>
           <div>
             <p className="eyebrow">The Level Headed Academy</p>
-            <h2 id="academy-title">Women teaching women, from first tools to site leadership.</h2>
+            <h2 id="academy-title">Women Teaching Women, from First Tools to Site Leadership.</h2>
             <p>
               We’re building practical training for every stage: women-only home maintenance nights, trades career
               exploration, apprenticeship pathways, mentorship and leadership development.
@@ -174,7 +174,7 @@ export function Home() {
         <div className="container split">
           <div>
             <p className="eyebrow">Level Headed Crew</p>
-            <h2 id="crew-title" className="crew-headline">Your skills <span>belong here.</span></h2>
+            <h2 id="crew-title" className="crew-headline">Your Skills <span>Belong Here.</span></h2>
             <p className="lede" style={{ color: 'rgba(245,238,226,0.85)' }}>
               Experienced tradeswomen, site leaders, apprentices and women exploring their first opportunity in the industry:
               we want to connect with women who are ready to build something different.
@@ -197,7 +197,7 @@ export function Home() {
       {/* IMPACT */}
       <section className="section paper" aria-labelledby="impact-title">
         <div className="container">
-          <SectionHead eyebrow="Our impact" title="We’ll measure what matters, and only report what’s real." id="impact-title">
+          <SectionHead eyebrow="Our impact" title="We’ll Measure What Matters, and Only Report What’s Real." id="impact-title">
             Our impact dashboard will track women trained, jobs created, mentorship hours, projects delivered and career
             progression as our work begins.
           </SectionHead>
@@ -208,7 +208,7 @@ export function Home() {
       {testimonials.length > 0 && (
         <section className="section ivory" aria-labelledby="testimonials-title">
           <div className="container">
-            <SectionHead eyebrow="In their words" title="What people say." id="testimonials-title" />
+            <SectionHead eyebrow="In their words" title="What People Say." id="testimonials-title" />
             <div className="grid grid-3">
               {testimonials.slice(0, 3).map((t) => (
                 <figure className="card" key={t.name + t.quote.slice(0, 20)} style={{ margin: 0 }}>

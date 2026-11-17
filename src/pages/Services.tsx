@@ -22,7 +22,7 @@ export const inquiryLink = (s: Service) =>
 export function Services() {
   return (
     <>
-      <PageHero eyebrow="Construction services" title="Capable, careful construction, from repairs to housing." crumbs={[{ label: 'Construction Services' }]}>
+      <PageHero eyebrow="Construction services" title="Capable, Careful Construction, from Repairs to Housing." crumbs={[{ label: 'Construction Services' }]}>
         Residential, housing-provider, commercial and advisory services across Simcoe County, Georgian Bay, Muskoka and
         surrounding Ontario communities.
         <ul className="service-index" aria-label="Jump to a service">
@@ -34,7 +34,7 @@ export function Services() {
         <div className="container split" style={{ alignItems: 'start' }}>
           <div>
             <p className="eyebrow">Straight answers</p>
-            <h2 style={{ fontSize: 'clamp(1.6rem, 3vw, 2.2rem)' }}>We grow deliberately, and we’ll tell you what we can take on.</h2>
+            <h2 style={{ fontSize: 'clamp(1.6rem, 3vw, 2.2rem)' }}>We Grow Deliberately, and We’ll Tell You What We Can Take On.</h2>
           </div>
           <div>
             <p>
@@ -80,7 +80,7 @@ export function Services() {
         </div>
       </div>
 
-      <CTABand title="Have a project in mind?">
+      <CTABand title="Have a Project in Mind?">
         Tell us what you’re planning. We’ll respond with honest advice about scope, timing and whether we’re the right fit.
       </CTABand>
     </>

@@ -10,7 +10,7 @@ export function Footer() {
       <div className="container">
         <div className="footer-top">
           <div className="footer-brand">
-            <img src="/brand/lh-logo-light.png" alt="Level Headed Building Co." width={153} height={74} loading="lazy" />
+            <img src="/brand/lh-logo-light.png" alt="Level Headed Building Co." width={144} height={74} loading="lazy" />
             <p>A women-led construction company based in {site.locationLabel}, serving {site.serviceArea.slice(2).join(', ')} and surrounding communities.</p>
             <Pillars />
           </div>

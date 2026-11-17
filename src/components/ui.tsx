@@ -101,7 +101,7 @@ export function EmptyState({ title, children, action }: { title: string; childre
   );
 }
 
-export function CTABand({ title = "Let's build something different.", children }: { title?: string; children?: ReactNode }) {
+export function CTABand({ title = "Let’s Build Something Different.", children }: { title?: string; children?: ReactNode }) {
   return (
     <section className="section blueprint cta-band on-dark" aria-labelledby="cta-band-title">
       <div className="container">

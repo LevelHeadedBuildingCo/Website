@@ -6,10 +6,10 @@ import { AcademyInterestForm } from '../components/forms/Forms';
 import { Book, HardHat, Rise, Users } from '../components/Icons';
 
 const pathway = [
-  { step: 'Explore', title: 'Workshops & first tools', text: 'Confidence-building, women-only sessions with tools and real materials.', Icon: Book },
-  { step: 'Learn', title: 'Structured training', text: 'Jobsite readiness, safety and practical skills, with real projects.', Icon: HardHat },
-  { step: 'Apprentice', title: 'Paid experience', text: 'Practical experience on Level Headed and partner jobs, with support and progression.', Icon: Users },
-  { step: 'Lead', title: 'Leadership growth', text: 'Teaching, site leadership and career advancement.', Icon: Rise },
+  { step: 'Explore', title: 'Workshops & First Tools', text: 'Confidence-building, women-only sessions with tools and real materials.', Icon: Book },
+  { step: 'Learn', title: 'Structured Training', text: 'Jobsite readiness, safety and practical skills, with real projects.', Icon: HardHat },
+  { step: 'Apprentice', title: 'Paid Experience', text: 'Practical experience on Level Headed and partner jobs, with support and progression.', Icon: Users },
+  { step: 'Lead', title: 'Leadership Growth', text: 'Teaching, site leadership and career advancement.', Icon: Rise },
 ];
 
 function formatDate(iso: string) {
@@ -49,7 +49,7 @@ export function Academy() {
     <>
       <PageHero
         eyebrow="Level Headed Academy"
-        title="Real skills. Real pathways. Women teaching women."
+        title="Real Skills. Real Pathways. Women Teaching Women."
         crumbs={[{ label: 'Academy' }]}
         aside={academyBadge.src ? <img className="page-hero-badge" src={academyBadge.src} alt={academyBadge.alt} /> : undefined}
       >
@@ -63,7 +63,7 @@ export function Academy() {
 
       <section className="section paper" aria-labelledby="pathway-title">
         <div className="container">
-          <SectionHead eyebrow="The pathway" title="From first tools to site leadership." id="pathway-title">
+          <SectionHead eyebrow="The pathway" title="From First Tools to Site Leadership." id="pathway-title">
             Training is built into how Level Headed works. Construction projects create paid, supervised experience, so learning
             leads somewhere real.
           </SectionHead>
@@ -81,7 +81,7 @@ export function Academy() {
 
       <section className="section ivory" aria-labelledby="programs-title">
         <div className="container">
-          <SectionHead eyebrow="Programs" title="What we’re building." id="programs-title">
+          <SectionHead eyebrow="Programs" title="What We’re Building." id="programs-title">
             Program details, dates and costs will be published here as each one launches.
           </SectionHead>
           <div className="grid grid-2">
@@ -103,7 +103,7 @@ export function Academy() {
           <div className="split" style={{ alignItems: 'center', marginBottom: '3rem' }}>
             <div>
               <p className="eyebrow">Community workshops</p>
-              <h2 id="workshops-title">Hands-on confidence for your home.</h2>
+              <h2 id="workshops-title">Hands-On Confidence for Your Home.</h2>
               <p className="lede">
                 Women-only evenings and weekend sessions in a welcoming, no-pressure setting. Bring your questions. Leave
                 knowing how your home works, how to fix the small things, and when to call a licensed professional.
@@ -121,11 +121,11 @@ export function Academy() {
             ))}
           </div>
 
-          <h3 className="mt-3" style={{ fontSize: '1.6rem' }}>Upcoming workshops</h3>
+          <h3 className="mt-3" style={{ fontSize: '1.6rem' }}>Upcoming Workshops</h3>
           {workshops.length > 0 ? (
             <div className="grid grid-3">{workshops.map((w) => <WorkshopCard w={w} key={w.slug} />)}</div>
           ) : (
-            <EmptyState title="No workshops scheduled yet" action={<a className="btn btn-primary" href="#interest">Tell me when dates are set</a>}>
+            <EmptyState title="No Workshops Scheduled Yet" action={<a className="btn btn-primary" href="#interest">Tell me when dates are set</a>}>
               Our first women-only workshops are being planned now. Register your interest, and tell us which topics and times
               suit you, so we can schedule what people want most.
             </EmptyState>
@@ -137,7 +137,7 @@ export function Academy() {
         <div className="container split" style={{ alignItems: 'start' }}>
           <div className="sticky-col">
             <p className="eyebrow">Register interest</p>
-            <h2 id="interest-title">Help shape the Academy.</h2>
+            <h2 id="interest-title">Help Shape the Academy.</h2>
             <p>
               Tell us what you’d like to learn and when you can attend. We’ll use your answers to plan our first programs and
               let you know as soon as registration opens.
@@ -147,7 +147,7 @@ export function Academy() {
           <div className="form-card"><AcademyInterestForm /></div>
         </div>
       </section>
-      <CTABand title="Ready to build your skills?">Join the Crew to hear about training, apprenticeships and paid opportunities.</CTABand>
+      <CTABand title="Ready to Build Your Skills?">Join the Crew to hear about training, apprenticeships and paid opportunities.</CTABand>
     </>
   );
 }

@@ -35,7 +35,7 @@
   --container: 1200px;
   --gutter: clamp(1.25rem, 4vw, 2.5rem);
   --section: clamp(4rem, 9vw, 7.5rem);
-  --header-h: 76px;
+  --header-h: 84px;
 }
 
 *, *::before, *::after { box-sizing: border-box; }
@@ -163,7 +163,7 @@ h4 { font-size: 1rem; }
 }
 .header-inner { display: flex; align-items: center; justify-content: space-between; gap: 1.5rem; height: var(--header-h); }
 .brand-link { display: inline-flex; align-items: center; flex-shrink: 0; }
-.brand-link img { height: 54px; width: auto; }
+.brand-link img { height: 62px; width: auto; }
 
 .primary-nav { display: flex; align-items: center; gap: 0.25rem; }
 .primary-nav > ul { display: flex; align-items: center; gap: 0.15rem; list-style: none; margin: 0; padding: 0; }
@@ -215,8 +215,8 @@ h4 { font-size: 1rem; }
   .mobile-panel .btn { margin-top: 1.5rem; width: 100%; font-size: 1rem; }
 }
 @media (max-width: 520px) {
-  :root { --header-h: 68px; }
-  .brand-link img { height: 46px; }
+  :root { --header-h: 72px; }
+  .brand-link img { height: 52px; }
   .menu-toggle .label { display: none; }
 }
 
@@ -240,10 +240,11 @@ h4 { font-size: 1rem; }
 .hero-frame picture, .hero-frame img { position: relative; border-radius: var(--radius); width: 100%; aspect-ratio: 5 / 6; object-fit: cover; box-shadow: var(--shadow-lg); }
 .hero-roof { position: absolute; top: -58px; left: 50%; transform: translateX(-50%); width: 72%; color: var(--copper); }
 .hero-tag {
-  position: absolute; left: -28px; bottom: 34px; background: var(--ivory); color: var(--navy); padding: 0.85rem 1.1rem;
-  border-left: 4px solid var(--copper); box-shadow: var(--shadow-lg); max-width: 250px; font-size: 0.85rem; line-height: 1.35;
+  position: absolute; left: -28px; bottom: 34px; background: var(--ivory); color: var(--navy); padding: 1rem 1.4rem 1rem 1.25rem;
+  border-left: 4px solid var(--copper); box-shadow: var(--shadow-lg); max-width: 260px; font-size: 0.9rem; line-height: 1.35;
 }
-.hero-tag strong { display: block; font-family: var(--font-slab); font-size: 1rem; }
+.hero-tag strong { display: block; font-family: var(--font-slab); font-size: 1.05rem; line-height: 1.25; white-space: nowrap; }
+.hero-tag span { display: block; margin-top: 0.35rem; }
 .photo-note { font-size: 0.75rem; color: rgba(245, 238, 226, 0.6); margin-top: 2.3rem; text-align: right; }
 
 @media (max-width: 900px) {

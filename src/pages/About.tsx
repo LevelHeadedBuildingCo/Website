@@ -14,8 +14,8 @@ const approach = [
   { word: 'Level', text: 'Measure, check and stay calm.' },
   { word: 'Straight', text: 'Tell the truth early, including mistakes.' },
   { word: 'Teach', text: 'Make learning part of every job.' },
-  { word: 'Respect homes', text: 'Treat every client’s space with care.' },
-  { word: 'Respect people', text: 'Address problems directly and fairly.' },
+  { word: 'Respect Homes', text: 'Treat every client’s space with care.' },
+  { word: 'Respect People', text: 'Address problems directly and fairly.' },
 ];
 
 const operatingPromise = [
@@ -29,7 +29,7 @@ const operatingPromise = [
 export function About() {
   return (
     <>
-      <PageHero eyebrow="About us" title="We believe construction can be done differently." crumbs={[{ label: 'About Us' }]}>
+      <PageHero eyebrow="About us" title="We Believe Construction Can Be Done Differently." crumbs={[{ label: 'About Us' }]}>
         The industry needs skilled people, better systems, stronger leadership and more opportunities for women. Level Headed
         brings experienced women together to deliver professional construction services while creating pathways for the next
         generation.
@@ -39,7 +39,7 @@ export function About() {
         <div className="container split">
           <div>
             <p className="eyebrow">Our story</p>
-            <h2 id="story">Two problems. One better way.</h2>
+            <h2 id="story">Two Problems. One Better Way.</h2>
             <p>
               Homeowners and housing providers deserve clear pricing, reliable communication, respectful service and work done
               carefully in the places people depend on. Women deserve real access to trades careers: equipment and sites that
@@ -78,7 +78,7 @@ export function About() {
 
       <section className="section ivory" aria-labelledby="values">
         <div className="container">
-          <SectionHead eyebrow="Our values" title="What we stand on." id="values" />
+          <SectionHead eyebrow="Our values" title="What We Stand On." id="values" />
           <div className="grid grid-4">
             {values.map(({ title, text, Icon }) => (
               <article className="card" key={title}>
@@ -93,7 +93,7 @@ export function About() {
 
       <section className="section paper" aria-labelledby="approach">
         <div className="container">
-          <SectionHead eyebrow="Our approach" title="Good intentions need good systems." id="approach">
+          <SectionHead eyebrow="Our approach" title="Good Intentions Need Good Systems." id="approach">
             How we behave on every job, and the operating promise behind it.
           </SectionHead>
           <div className="grid grid-3" style={{ gridTemplateColumns: 'repeat(auto-fit, minmax(190px, 1fr))' }}>
@@ -106,7 +106,7 @@ export function About() {
             ))}
           </div>
           <div className="split mt-3" style={{ alignItems: 'start' }}>
-            <h3 style={{ fontSize: '1.6rem' }}>Organized work. Clear accountability.</h3>
+            <h3 style={{ fontSize: '1.6rem' }}>Organized Work. Clear Accountability.</h3>
             <ul className="check-list">{operatingPromise.map((p) => <li key={p}>{p}</li>)}</ul>
           </div>
         </div>
@@ -114,14 +114,14 @@ export function About() {
 
       <section className="section ivory" aria-labelledby="leadership">
         <div className="container">
-          <SectionHead eyebrow="Our leadership" title="Women-led, from the ground up." id="leadership" />
+          <SectionHead eyebrow="Our leadership" title="Women-Led, from the Ground Up." id="leadership" />
           <div className="grid" style={{ gap: '3rem' }}>
             {team.map((m) => (
               <article className="team-card" key={m.name}>
                 <div className="team-photo">
                   {m.photo && m.photoApproved
                     ? <Photo src={m.photo} alt={m.photoAlt} />
-                    : <PlaceholderPhoto label="Portrait" title="Photo coming soon" ratio="4 / 5" />}
+                    : <PlaceholderPhoto label="Portrait" title="Photo Coming Soon" ratio="4 / 5" />}
                 </div>
                 <div>
                   <h3 style={{ fontSize: '1.7rem', marginBottom: '0.2rem' }}>{m.name}</h3>
@@ -143,7 +143,7 @@ export function About() {
       <section className="section paper" aria-labelledby="commitment">
         <div className="container narrow center">
           <p className="eyebrow">Our commitment to women in construction</p>
-          <h2 id="commitment">Not a side program. The way the company runs.</h2>
+          <h2 id="commitment">Not a Side Program. The Way the Company Runs.</h2>
           <p className="lede" style={{ margin: '0 auto 1.5rem' }}>
             Paid work funds real jobs. Training and mentorship are built into every project. Crews get gear that fits, safe
             facilities and a visible route to leadership. And as we grow, women will shape the work, lead the teams and help

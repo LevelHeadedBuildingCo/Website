@@ -42,7 +42,7 @@ export function Header() {
       <header className="site-header">
         <div className="container header-inner">
           <Link to="/" className="brand-link" aria-label="Level Headed Building Co. home">
-            <img src="/brand/lh-logo-light.png" alt="Level Headed Building Co." width={112} height={54} />
+            <img src="/brand/lh-logo-light.png" alt="Level Headed Building Co." width={120} height={62} />
           </Link>
 
           <nav className="primary-nav" aria-label="Main" ref={navRef}>

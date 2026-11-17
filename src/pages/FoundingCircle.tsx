@@ -101,7 +101,7 @@ export function FoundingCircle() {
 
       <section className="section paper" aria-labelledby="services-title">
         <div className="container">
-          <SectionHead eyebrow="Services" title="More than renovations." id="services-title">
+          <SectionHead eyebrow="Services" title="More Than Renovations." id="services-title">
             A practical mix of homeowner services, institutional work and off-site construction.
           </SectionHead>
           <div className="grid grid-3">
@@ -117,7 +117,7 @@ export function FoundingCircle() {
 
       <section className="section sage" aria-labelledby="training-title">
         <div className="container">
-          <SectionHead eyebrow="Training" title="Women teaching women." id="training-title">
+          <SectionHead eyebrow="Training" title="Women Teaching Women." id="training-title">
             Practical events for homeowners and skill-building pathways for future tradeswomen.
           </SectionHead>
           <div className="grid grid-3">
@@ -129,7 +129,7 @@ export function FoundingCircle() {
       <section className="section paper" aria-labelledby="brand-title">
         <div className="container split" style={{ alignItems: 'start' }}>
           <div>
-            <SectionHead eyebrow="Brand" title="Show the work. Celebrate women builders." id="brand-title" />
+            <SectionHead eyebrow="Brand" title="Show the Work. Celebrate Women Builders." id="brand-title" />
             <ol className="grid" style={{ listStyle: 'none', padding: 0, margin: 0 }}>
               {fc.brand.map((b, i) => (
                 <li key={b.title}><span className="value-num">{num(i)}</span><h3 style={{ fontSize: '1.15rem' }}>{b.title}</h3><p className="small muted">{b.text}</p></li>
@@ -143,7 +143,7 @@ export function FoundingCircle() {
 
       <section className="section ivory" aria-labelledby="capital-title">
         <div className="container">
-          <SectionHead eyebrow="Funding & partners" title="Partnerships developed before commitments are made." id="capital-title" />
+          <SectionHead eyebrow="Funding & partners" title="Partnerships Developed Before Commitments Are Made." id="capital-title" />
           <div className="grid grid-3">
             {fc.capital.map((c) => <article className="card" key={c.title}><h3 style={{ fontSize: '1.1rem' }}>{c.title}</h3><p className="small muted">{c.text}</p></article>)}
           </div>
@@ -153,7 +153,7 @@ export function FoundingCircle() {
 
       <section className="section paper" aria-labelledby="revenue-title">
         <div className="container">
-          <SectionHead eyebrow="Revenue" title="Introduced in phases, not all at once." id="revenue-title" />
+          <SectionHead eyebrow="Revenue" title="Introduced in Phases, Not All at Once." id="revenue-title" />
           <div className="grid grid-3">
             {fc.revenue.map((r) => <article className="card ivory" key={r.title}><p className="eyebrow" style={{ marginBottom: '0.5rem' }}>{r.title}</p><p className="small mb-0">{r.text}</p></article>)}
           </div>
@@ -163,7 +163,7 @@ export function FoundingCircle() {
 
       <section className="section blueprint on-dark" aria-labelledby="how-title">
         <div className="container">
-          <SectionHead eyebrow="04 / How we work" title="Good intentions need good systems." id="how-title" />
+          <SectionHead eyebrow="04 / How we work" title="Good Intentions Need Good Systems." id="how-title" />
           <div className="grid" style={{ gridTemplateColumns: 'repeat(auto-fit, minmax(170px, 1fr))' }}>
             {fc.values.map((v, i) => (
               <div key={v.title}>
@@ -174,7 +174,7 @@ export function FoundingCircle() {
             ))}
           </div>
           <div className="split mt-3" style={{ alignItems: 'start' }}>
-            <div><p className="eyebrow">05 / The operating promise</p><h3 style={{ fontSize: '1.6rem' }}>Organized work. Clear accountability.</h3></div>
+            <div><p className="eyebrow">05 / The operating promise</p><h3 style={{ fontSize: '1.6rem' }}>Organized Work. Clear Accountability.</h3></div>
             <ol className="check-list">{fc.promise.map((p) => <li key={p}>{p}</li>)}</ol>
           </div>
         </div>
@@ -192,17 +192,17 @@ export function FoundingCircle() {
 
       <section className="section ivory" aria-labelledby="means-title">
         <div className="container">
-          <SectionHead eyebrow="07 / What this means" title="A conversation first. Commitments later." id="means-title" />
+          <SectionHead eyebrow="07 / What this means" title="A Conversation First. Commitments Later." id="means-title" />
           <div className="grid grid-2">
-            <article className="card"><h3>What we can explore together</h3><p>{fc.expectations.explore}</p></article>
-            <article className="card" style={{ borderLeft: '4px solid var(--copper)' }}><h3>What is not being promised</h3><p>{fc.expectations.notPromised}</p></article>
+            <article className="card"><h3>What We Can Explore Together</h3><p>{fc.expectations.explore}</p></article>
+            <article className="card" style={{ borderLeft: '4px solid var(--copper)' }}><h3>What Is Not Being Promised</h3><p>{fc.expectations.notPromised}</p></article>
           </div>
         </div>
       </section>
 
       <section className="section paper" aria-labelledby="launch-title">
         <div className="container">
-          <SectionHead eyebrow="Launch" title="The first 90 days." id="launch-title">
+          <SectionHead eyebrow="Launch" title="The First 90 Days." id="launch-title">
             A practical launch sequence, beginning now rather than waiting for a distant opening date.
           </SectionHead>
           <div className="grid grid-3">
@@ -213,7 +213,7 @@ export function FoundingCircle() {
               </article>
             ))}
           </div>
-          <h3 className="mt-3" style={{ fontSize: '1.6rem' }}>08 / The road ahead: launch now, scale responsibly.</h3>
+          <h3 className="mt-3" style={{ fontSize: '1.6rem' }}>08 / The Road Ahead: Launch Now, Scale Responsibly.</h3>
           <ol className="grid grid-4" style={{ listStyle: 'none', padding: 0, margin: '1.5rem 0 0' }}>
             {fc.roadAhead.map((r) => (
               <li className="card ivory" key={r.when}>

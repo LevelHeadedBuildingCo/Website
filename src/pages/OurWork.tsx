@@ -13,14 +13,14 @@ export function OurWork() {
 
   return (
     <>
-      <PageHero eyebrow="Our work" title="Built carefully. Shown honestly." crumbs={[{ label: 'Our Work' }]}>
+      <PageHero eyebrow="Our work" title="Built Carefully. Shown Honestly." crumbs={[{ label: 'Our Work' }]}>
         Every project in this portfolio is real Level Headed work. We’re adding projects as they’re completed, with photos,
         scope and outcomes, and client words only when they’ve approved them.
       </PageHero>
 
       <section className="section paper" aria-labelledby="portfolio-title">
         <div className="container">
-          <h2 id="portfolio-title" className="sr-only">Project portfolio</h2>
+          <h2 id="portfolio-title" className="sr-only">Project Portfolio</h2>
           <div className="filters" role="group" aria-label="Filter projects by category">
             {(['All', ...projectCategories] as const).map((c) => (
               <button key={c} type="button" className="filter-btn" aria-pressed={filter === c} onClick={() => setFilter(c)}>{c}</button>
@@ -72,7 +72,7 @@ export function ProjectDetail({ project: p }: { project: Project }) {
         <div className="container split" style={{ alignItems: 'start' }}>
           <div className="framed"><Photo src={p.coverImage} alt={p.coverAlt} eager /></div>
           <div>
-            <h2 style={{ fontSize: '1.8rem' }}>The project</h2>
+            <h2 style={{ fontSize: '1.8rem' }}>The Project</h2>
             {p.description.split('\n\n').map((para, i) => <p key={i}>{para}</p>)}
             {p.scope.length > 0 && (<><h3>Scope</h3><ul className="check-list">{p.scope.map((s) => <li key={s}>{s}</li>)}</ul></>)}
           </div>
@@ -81,9 +81,9 @@ export function ProjectDetail({ project: p }: { project: Project }) {
       {(p.challenges || p.solutions || p.outcomes) && (
         <section className="section ivory">
           <div className="container grid grid-3">
-            {p.challenges && <div className="card"><h3>The challenge</h3><p>{p.challenges}</p></div>}
-            {p.solutions && <div className="card"><h3>Our solution</h3><p>{p.solutions}</p></div>}
-            {p.outcomes && <div className="card"><h3>The outcome</h3><p>{p.outcomes}</p></div>}
+            {p.challenges && <div className="card"><h3>The Challenge</h3><p>{p.challenges}</p></div>}
+            {p.solutions && <div className="card"><h3>Our Solution</h3><p>{p.solutions}</p></div>}
+            {p.outcomes && <div className="card"><h3>The Outcome</h3><p>{p.outcomes}</p></div>}
           </div>
         </section>
       )}

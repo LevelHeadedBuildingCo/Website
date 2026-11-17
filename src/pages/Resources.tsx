@@ -26,7 +26,7 @@ export function Resources() {
   const list = cat === 'All' ? articles : articles.filter((a) => a.category === cat);
   return (
     <>
-      <PageHero eyebrow="Resources & events" title="Practical know-how, from people who build." crumbs={[{ label: 'Resources & Events' }]}>
+      <PageHero eyebrow="Resources & events" title="Practical Know-How, from People Who Build." crumbs={[{ label: 'Resources & Events' }]}>
         Home maintenance guidance, construction advice, career resources for women in the trades, and news from the crew.
       </PageHero>
 
@@ -54,7 +54,7 @@ export function Resources() {
         <div className="container split" style={{ alignItems: 'start' }}>
           <div>
             <p className="eyebrow">Events</p>
-            <h2 id="events-title">Workshops and events.</h2>
+            <h2 id="events-title">Workshops and Events.</h2>
             <p className="muted">
               Women-only home maintenance nights, DIY and repair workshops, and trades events are listed on the Academy page as
               soon as they’re scheduled.
@@ -67,7 +67,7 @@ export function Resources() {
                 {workshops.map((w) => <li key={w.slug}><strong>{w.title}</strong>: {fmt(w.date)}, {w.location}</li>)}
               </ul>
             ) : (
-              <EmptyState title="No events scheduled yet" action={<ButtonLink to="/academy#interest">Get notified</ButtonLink>}>
+              <EmptyState title="No Events Scheduled Yet" action={<ButtonLink to="/academy#interest">Get notified</ButtonLink>}>
                 Register your interest and we’ll let you know when our first dates are set.
               </EmptyState>
             )}
@@ -106,7 +106,7 @@ export function ArticleDetail({ article: a }: { article: Article }) {
       {related.length > 0 && (
         <section className="section ivory" aria-labelledby="related-title">
           <div className="container">
-            <h2 id="related-title">Related articles</h2>
+            <h2 id="related-title">Related Articles</h2>
             <div className="grid grid-3">{related.map((r) => <ArticleCard a={r} key={r.slug} />)}</div>
           </div>
         </section>

@@ -37,7 +37,7 @@ export function QuoteForm() {
       <SelectField label="Desired timeline" name="timeline" options={['As soon as possible', 'Within 3 months', '3 – 6 months', '6 – 12 months', 'More than a year away', 'Flexible']} />
       <TextArea label="Tell us about the project" name="description" required hint="What needs to be done, anything you’re worried about, and how you’ll use the space." />
       <FileField label="Plans or photographs" name="attachments" multiple />
-      <div className="full"><hr className="divider-copper" /><h3 className="mb-0">Your contact information</h3></div>
+      <div className="full"><hr className="divider-copper" /><h3 className="mb-0">Your Contact Information</h3></div>
       <ContactBasics showLocation={false} />
       <SelectField label="Best way to reach you" name="preferred_contact" options={['Email', 'Phone', 'Either']} />
       <Consent />

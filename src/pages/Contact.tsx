@@ -35,14 +35,14 @@ export function Contact() {
 
   return (
     <>
-      <PageHero eyebrow="Contact" title="Let’s talk about what you’re building." crumbs={[{ label: 'Contact' }]}>
+      <PageHero eyebrow="Contact" title="Let’s Talk About What You’re Building." crumbs={[{ label: 'Contact' }]}>
         Choose the option that fits best and we’ll route your message to the right person.
       </PageHero>
 
       <section className="section paper">
         <div className="container contact-grid">
           <div>
-            <h2 className="sr-only">Inquiry type</h2>
+            <h2 className="sr-only">Inquiry Type</h2>
             <div className="tabs" role="group" aria-label="What can we help with?">
               {types.map((t) => (
                 <button key={t.key} type="button" className="tab" aria-pressed={type === t.key}
@@ -79,7 +79,7 @@ export function Contact() {
               </div>
             )}
             <div className="item" style={{ borderBottom: 0 }}>
-              <h3>What happens next</h3>
+              <h3>What Happens Next</h3>
               <ol className="small" style={{ paddingLeft: '1.1em', color: 'rgba(245,238,226,0.85)', margin: 0 }}>
                 <li>We review every inquiry personally.</li>
                 <li>We reach out to ask questions or book a conversation.</li>
