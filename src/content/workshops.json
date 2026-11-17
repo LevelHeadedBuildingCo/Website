@@ -1,0 +1,17 @@
+{
+  "items": [
+    {
+      "slug": "sample-workshop-template",
+      "published": false,
+      "title": "Sample workshop (template, not published)",
+      "date": "2027-03-14",
+      "time": "6:30 – 8:30 pm",
+      "location": "Venue name, Midland",
+      "description": "Template entry showing every field a workshop card supports. It stays hidden while published is false.",
+      "capacity": "12 participants",
+      "cost": "$45",
+      "registration": "open",
+      "registrationUrl": ""
+    }
+  ]
+}

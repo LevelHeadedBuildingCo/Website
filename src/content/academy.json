@@ -1,0 +1,152 @@
+{
+  "badge": "",
+  "badgeAlt": "Level Headed Academy badge",
+  "programs": [
+    {
+      "slug": "intro-to-construction",
+      "title": "Introduction to Construction",
+      "status": "planned",
+      "audience": "Women curious about construction with little or no experience.",
+      "summary": "A hands-on first look at how buildings come together, the trades involved and what a day on site really looks like.",
+      "topics": [
+        "How a building comes together",
+        "The trades and who does what",
+        "Tool basics",
+        "A day on a jobsite"
+      ]
+    },
+    {
+      "slug": "trades-career-exploration",
+      "title": "Skilled Trades Career Exploration",
+      "status": "planned",
+      "audience": "Career changers, students and women returning to work.",
+      "summary": "Try the work, meet tradeswomen and understand the routes into carpentry, general construction and related trades in Ontario.",
+      "topics": [
+        "Trade-by-trade overviews",
+        "Conversations with working tradeswomen",
+        "Pay, progression and realities",
+        "Next steps and resources"
+      ]
+    },
+    {
+      "slug": "apprenticeship-pathways",
+      "title": "Apprenticeship Pathways",
+      "status": "planned",
+      "audience": "Women ready to pursue a skilled trade.",
+      "summary": "Guidance and practical experience to help women find, prepare for and succeed in an apprenticeship.",
+      "topics": [
+        "How Ontario apprenticeships work",
+        "Preparing for in-school training",
+        "Logging hours and progression",
+        "Support through the process"
+      ]
+    },
+    {
+      "slug": "mentorship",
+      "title": "Mentorship & Professional Development",
+      "status": "planned",
+      "audience": "Women at every stage of a construction career.",
+      "summary": "Paired mentorship and practical development with experienced women in the industry.",
+      "topics": [
+        "One-to-one mentorship",
+        "Goal setting and career planning",
+        "Peer circles",
+        "Professional skills"
+      ]
+    },
+    {
+      "slug": "jobsite-readiness-safety",
+      "title": "Jobsite Readiness & Safety",
+      "status": "planned",
+      "audience": "New entrants and anyone preparing for site work.",
+      "summary": "The habits, safety practices and professionalism that make someone ready to contribute from day one.",
+      "topics": [
+        "Hazard awareness and PPE",
+        "Safe tool use",
+        "Site communication",
+        "Professionalism and client care"
+      ]
+    },
+    {
+      "slug": "leadership",
+      "title": "Women in Construction Leadership",
+      "status": "planned",
+      "audience": "Experienced tradeswomen and emerging site leaders.",
+      "summary": "Building the skills to lead crews, run sites and step into decision-making roles.",
+      "topics": [
+        "Site leadership",
+        "Planning and coordination",
+        "Teaching on the job",
+        "Handling conflict directly and fairly"
+      ]
+    },
+    {
+      "slug": "experienced-tradeswomen",
+      "title": "Training for Experienced Tradeswomen",
+      "status": "planned",
+      "audience": "Journeypersons and seasoned tradeswomen.",
+      "summary": "Advanced and cross-skill training, trainer development and new methods, including panelized and off-site construction.",
+      "topics": [
+        "Cross-trade skills",
+        "Trainer development",
+        "Panelized and off-site methods",
+        "Estimating and business skills"
+      ]
+    },
+    {
+      "slug": "community-workshops",
+      "title": "Community Workshops",
+      "status": "planned",
+      "audience": "Women homeowners, renters and anyone who wants more confidence at home.",
+      "summary": "Women-only, hands-on evenings and weekend sessions that build practical confidence with your home and tools.",
+      "topics": [
+        "Home maintenance",
+        "Simple repairs",
+        "Tool safety",
+        "Knowing when to call a professional"
+      ]
+    }
+  ],
+  "workshopTopics": [
+    {
+      "title": "Basic home maintenance",
+      "text": "Shutoffs, filters, caulking and the checks that prevent costly repairs."
+    },
+    {
+      "title": "Understanding your home's systems",
+      "text": "How plumbing, electrical, heating and ventilation work, and what to watch for."
+    },
+    {
+      "title": "Drywall repairs",
+      "text": "Patch holes and cracks so the repair disappears."
+    },
+    {
+      "title": "Painting and finishing",
+      "text": "Prep, cut-in and roll like a pro, with a finish that lasts."
+    },
+    {
+      "title": "Basic carpentry",
+      "text": "Measure, cut and fasten safely, and build something useful."
+    },
+    {
+      "title": "Using tools safely",
+      "text": "Choose the right tool, use it confidently and keep it in good shape."
+    },
+    {
+      "title": "Seasonal property maintenance",
+      "text": "Spring and fall checklists for Georgian Bay homes and cottages."
+    },
+    {
+      "title": "Planning renovations",
+      "text": "Set priorities, budgets and realistic timelines before you start."
+    },
+    {
+      "title": "Hiring and working with contractors",
+      "text": "Scopes, quotes, contracts and questions worth asking."
+    },
+    {
+      "title": "Homeownership confidence",
+      "text": "Know your home, plan ahead and make decisions with confidence."
+    }
+  ]
+}

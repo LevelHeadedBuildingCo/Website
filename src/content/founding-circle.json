@@ -1,0 +1,128 @@
+{
+  "published": true,
+  "eyebrow": "Level Headed · Private invitation",
+  "title": "An invitation to build something different.",
+  "intro": "A private conversation with the women who could help shape our future.",
+  "tags": ["Women-owned", "Women-led", "Built to last"],
+  "letter": {
+    "heading": "I don’t want to build this alone.",
+    "body": "I’m bringing together a small founding circle of women with different strengths and a shared desire to build a better construction company.\n\nThis page is an invitation to explore what we could build together. Read it at your own pace, and if something sparks an idea, a question or a concern, send it to me at the bottom of the page. Honest feedback is exactly what I’m looking for.",
+    "signature": "Sonya",
+    "role": "Founder, Level Headed Building Co."
+  },
+  "whoWeAre": {
+    "heading": "Homes people can stay in. Women who build them.",
+    "text": "Level Headed Building Co. is a women-owned, women-led construction company beginning in Simcoe County, Ontario.",
+    "items": [
+      { "title": "Build", "text": "Repairs, renovations, accessibility, panelized construction and housing-provider projects." },
+      { "title": "Train", "text": "Women-only skills events, trades training, mentorship, apprenticeships and leadership." },
+      { "title": "Lead", "text": "Connect tradeswomen, clients, community partners and future women leaders." }
+    ]
+  },
+  "mission": "To deliver dependable, well-managed construction and housing services while creating real opportunities for women to learn, work, lead and thrive in the building industry.",
+  "vision": "A construction industry where women shape the work, lead the teams and build stronger homes and communities, with Level Headed recognized for both craftsmanship and opportunity.",
+  "whyItMatters": {
+    "heading": "Two problems. One better way.",
+    "items": [
+      { "title": "Homeowners deserve better", "text": "Clear pricing. Reliable communication. Respectful service. Work done carefully in the homes people depend on." },
+      { "title": "Women deserve opportunity", "text": "Real access to trades careers, equipment and sites that work for them, skilled mentorship and pathways to decision-making." }
+    ],
+    "closing": "Our answer is not a promise to do things differently. It is to design the company differently from day one."
+  },
+  "fiveWays": {
+    "heading": "Five ways we make a difference.",
+    "text": "Construction and maintenance fund real jobs. Training and community build a stronger workforce. Housing expands our long-term impact.",
+    "items": [
+      { "title": "Build", "text": "Repairs, renovations, accessibility, panelized builds and additions." },
+      { "title": "Maintain", "text": "Unit turnovers, repairs and ongoing work for housing providers." },
+      { "title": "Train", "text": "Women-only homeowner workshops and trades-to-leadership pathways." },
+      { "title": "Connect", "text": "Women-owned trades, professionals, mentors and communities." },
+      { "title": "Create homes", "text": "ADUs, shared living and partner-led housing opportunities." }
+    ],
+    "sequence": ["Local services and workshops", "Repeat housing work", "Panelized projects", "Larger housing partnerships"],
+    "note": "Every offering is launched against demand, qualified capacity, insurance, compliance and sustainable margins."
+  },
+  "services": [
+    { "title": "Housing turnovers", "text": "Vacancy repairs, patching, painting, flooring, fixtures, safety fixes and move-in readiness for co-ops, nonprofits and social housing.", "image": "/images/brand/drill-siding" },
+    { "title": "Panelized construction", "text": "Panelized additions, accessory units and projects for our own builds and qualified external partners, with design and site coordination.", "image": "/images/brand/portrait-framing" },
+    { "title": "Accessibility & repairs", "text": "Ramps, rails, bathrooms, entrances, aging-in-place upgrades, maintenance and small-to-medium renovations.", "image": "/images/brand/access-ramp" }
+  ],
+  "training": [
+    { "title": "Home maintenance nights", "text": "Women-only hands-on events: shutoffs, basic plumbing, drywall patches, caulking, seasonal checks and tool confidence." },
+    { "title": "DIY & repair workshops", "text": "Safe use of tools, hanging shelves, basic carpentry, simple repairs and knowing when to call a licensed professional." },
+    { "title": "Trades & leadership", "text": "Intro-to-trades, jobsite readiness, mentoring, future apprenticeships, trainer development and site leadership." }
+  ],
+  "brand": [
+    { "title": "Market the work", "text": "Women-only homeowner events, housing-provider outreach, referral partnerships, site stories and clear service offers." },
+    { "title": "Build an audience", "text": "Our websites, local search, social media, workshops and authentic stories of women building." },
+    { "title": "Create crew identity", "text": "Branded workwear, hard hats, caps, hoodies, shirts and practical accessories that reinforce professionalism." }
+  ],
+  "brandNote": "Crew merchandise is a brand and culture tool, not assumed core revenue. Brand images and apparel shown are concepts, not photographs of an operating crew.",
+  "capital": [
+    { "title": "Startup capital", "text": "Founder contributions if agreed, retained earnings and modest startup reserves. No assumed personal guarantees." },
+    { "title": "Grants & programs", "text": "Explore women-in-trades, training, workforce development and small-business supports. Eligibility and timing require verification." },
+    { "title": "Training partners", "text": "Colleges, workforce agencies, trade associations and employers for facilities, instructors, placements or funded cohorts." },
+    { "title": "Delivery partners", "text": "Women-led trades, architects, engineers, suppliers, panelization fabricators and community organizations." },
+    { "title": "Housing partners", "text": "Social housing providers, co-ops, municipalities and nonprofit partners for turnovers, retrofits and housing projects." },
+    { "title": "Commercial partners", "text": "Referral relationships with seniors’ organizations, occupational therapists, property managers and housing providers." }
+  ],
+  "capitalNote": "Potential sources and partner categories only. No funding award, signed agreement or program eligibility is implied.",
+  "revenue": [
+    { "title": "Early / core", "text": "Accessibility work; repairs; renovations; women-only home maintenance events; home-safety assessments." },
+    { "title": "Recurring / relationship", "text": "Social housing and co-op unit turnovers, maintenance contracts, vacancy refreshes and repeat property work." },
+    { "title": "Training / education", "text": "Paid women-only DIY and home-maintenance events, trades workshops, sponsored training and funded cohorts." },
+    { "title": "Professional / project", "text": "Project coordination, owner representation, construction planning and consulting linked to Level Headed projects." },
+    { "title": "Longer term / partner-led", "text": "Panelized builds for our own projects and partners, additions, ADUs, and partner-led housing delivery." },
+    { "title": "Optional brand revenue", "text": "Selective apparel and branded merchandise sales, only if demand and margins justify them." }
+  ],
+  "revenueNote": "These are opportunities to test, not guaranteed income. Each offering must earn its place through demand, capacity, risk and margin.",
+  "values": [
+    { "title": "Level", "text": "Measure, check and stay calm." },
+    { "title": "Straight", "text": "Tell the truth early, including mistakes." },
+    { "title": "Teach", "text": "Make learning part of every job." },
+    { "title": "Respect homes", "text": "Treat every client’s space with care." },
+    { "title": "Respect people", "text": "Address problems directly and fairly." }
+  ],
+  "promise": [
+    "Every project has a scope, price, budget and accountable lead.",
+    "Site teams know who decides what, and when to escalate.",
+    "Estimating, purchasing, scheduling and job costing support the field.",
+    "Clients know what is happening, who is coming and what changed.",
+    "Women get appropriate gear, safe facilities and a visible route to leadership."
+  ],
+  "circle": {
+    "heading": "Different expertise. Shared ambition.",
+    "items": [
+      { "title": "Construction", "text": "Journeypersons, carpenters, generalists, site leaders and trade-business owners." },
+      { "title": "Professional services", "text": "Design, engineering, estimating, permitting, accounting, legal and finance." },
+      { "title": "Training & community", "text": "Educators, mentors, workforce advocates and housing/community partners." }
+    ],
+    "closing": "What matters most: sound judgment, shared values, complementary strengths and a willingness to help shape what comes next."
+  },
+  "expectations": {
+    "explore": "Our first services and markets; standards and systems; training; partnerships; and the leadership structure we may need.",
+    "notPromised": "No job, ownership stake, paid engagement or decision-making authority is offered simply by joining the circle. Future employment, trade work, advisory roles or ownership would be discussed individually and formalized in writing."
+  },
+  "first90": [
+    { "phase": "Days 1–30", "title": "Set up", "text": "Convene founding women, confirm business structure, insurance and WSIB obligations, define service boundaries, vendor requirements and pricing." },
+    { "phase": "Days 31–60", "title": "Test", "text": "Open local inquiry channels, meet housing providers and trades partners, host or pre-sell a first women-only maintenance event, quote pilot work." },
+    { "phase": "Days 61–90", "title": "Deliver", "text": "Complete eligible pilot jobs, document margins and feedback, seek repeat turnover work, refine training offers and form a reliable delivery roster." }
+  ],
+  "roadAhead": [
+    { "when": "Now / 2026", "title": "Start & validate", "text": "Form founding circle, validate insurance and compliance, price offers, approach housing partners and schedule first events." },
+    { "when": "Early 2027", "title": "First paid work", "text": "Deliver first qualified repair, accessibility and turnover projects, plus women-only homeowner workshops." },
+    { "when": "2027–28", "title": "Repeat & expand", "text": "Build recurring housing contracts, panelized partnerships, site leadership and funded training capacity." },
+    { "when": "Beyond", "title": "Grow with demand", "text": "Expand into larger builds, panelized delivery and housing projects when the work, people and financing support it." }
+  ],
+  "roadNote": "Start immediately with outreach and planning. Begin paid work only once operational requirements are in place.",
+  "whyYou": {
+    "heading": "You may be one of the women who helps define what this company becomes.",
+    "text": "Not because everything has already been decided. Because it hasn’t, and your experience could matter."
+  },
+  "nextConversation": {
+    "heading": "Let’s talk about what we could build.",
+    "text": "If this sounds like something you want to help shape, I’d love to start with a coffee or a conversation. Or simply share your thoughts below. Tell me three things:",
+    "prompts": ["What you bring", "What excites you", "What you would need to know"],
+    "footnote": "Private invitation · No obligation · No employment or ownership offer at this stage"
+  }
+}

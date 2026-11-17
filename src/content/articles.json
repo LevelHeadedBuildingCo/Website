@@ -1,0 +1,18 @@
+{
+  "items": [
+    {
+      "slug": "article-template",
+      "published": false,
+      "title": "Article template (not published)",
+      "category": "Home Maintenance",
+      "author": "Level Headed Building Co.",
+      "date": "2027-01-01",
+      "excerpt": "A short summary shown on the Resources page and in search results.",
+      "featuredImage": "/images/brand/access-ramp",
+      "featuredImageAlt": "Describe the featured image.",
+      "seoTitle": "",
+      "seoDescription": "",
+      "body": "## A heading\n\nWrite the article in Markdown. Use `##` for section headings and `###` for sub-headings.\n\n- Bullet lists work\n- So do **bold** and *italic*\n\n## Another section\n\nLinks look like [this](/contact)."
+    }
+  ]
+}

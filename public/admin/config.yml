@@ -1,0 +1,288 @@
+# Decap CMS configuration: visual editor at https://yourdomain.ca/admin
+# Before first use, replace the two REPLACE values below (see CONTENT-GUIDE.md).
+backend:
+  name: github
+  repo: REPLACE-GITHUB-USER/level-headed-site
+  branch: main
+  base_url: https://REPLACE-OAUTH-WORKER.workers.dev   # GitHub OAuth proxy (see CONTENT-GUIDE.md)
+  commit_messages:
+    update: "Content: update {{collection}} “{{slug}}”"
+
+# Test locally without GitHub: run `npx decap-server` next to `npm run dev`, then set local_backend: true
+local_backend: false
+
+media_folder: public/images/uploads
+public_folder: /images/uploads
+site_url: /
+logo_url: /brand/lh-logo-dark.png
+
+collections:
+  - name: settings
+    label: Site settings
+    files:
+      - name: site
+        label: Company details, contact & announcement
+        file: src/content/site.json
+        fields:
+          - { name: companyName, label: Company name, widget: string }
+          - { name: shortName, label: Short name, widget: string }
+          - { name: siteUrl, label: "Website address (e.g. https://www.yourdomain.ca)", widget: string, required: false }
+          - { name: locationLabel, label: Location label, widget: string }
+          - { name: serviceArea, label: Service area, widget: list }
+          - name: contact
+            label: Contact details (blank = hidden)
+            widget: object
+            fields:
+              - { name: email, label: Email, widget: string, required: false }
+              - { name: phone, label: Phone, widget: string, required: false }
+              - { name: streetAddress, label: Street address, widget: string, required: false }
+              - { name: city, label: City, widget: string }
+              - { name: province, label: Province, widget: string }
+              - { name: postalCode, label: Postal code, widget: string, required: false }
+              - { name: hours, label: Hours, widget: string, required: false }
+          - name: social
+            label: Social links
+            widget: list
+            required: false
+            fields: [{ name: label, label: Label, widget: string }, { name: url, label: URL, widget: string }]
+          - name: announcement
+            label: Homepage announcement bar
+            widget: object
+            fields:
+              - { name: enabled, label: Show announcement, widget: boolean }
+              - { name: text, label: Text, widget: string, required: false }
+              - { name: linkLabel, label: Link label, widget: string, required: false }
+              - { name: linkUrl, label: Link URL, widget: string, required: false }
+          - name: newsletter
+            label: Newsletter signup
+            widget: object
+            fields:
+              - { name: enabled, label: Show newsletter signup, widget: boolean }
+              - { name: heading, label: Heading, widget: string }
+              - { name: text, label: Text, widget: text }
+          - { name: imageryNote, label: Imagery note (footer), widget: text }
+          - name: legal
+            label: Legal pages
+            widget: object
+            fields:
+              - { name: reviewed, label: "Privacy & terms reviewed by a lawyer", widget: boolean }
+              - { name: effectiveDate, label: Effective date, widget: string, required: false }
+              - { name: privacyContactEmail, label: Privacy contact email, widget: string, required: false }
+
+  - name: services
+    label: Services
+    files:
+      - name: services
+        label: Construction services
+        file: src/content/services.json
+        fields:
+          - name: items
+            label: Services
+            widget: list
+            summary: "{{fields.title}} ({{fields.status}})"
+            fields:
+              - { name: slug, label: "URL anchor (lowercase-with-dashes)", widget: string }
+              - { name: title, label: Title, widget: string }
+              - { name: status, label: Status, widget: select, options: [{ label: Taking inquiries, value: inquiries }, { label: In development, value: planned }] }
+              - { name: statusNote, label: Note about scope or status, widget: text, required: false }
+              - { name: summary, label: Summary, widget: text }
+              - { name: audience, label: Who it's for, widget: string, required: false }
+              - { name: includes, label: Includes, widget: list }
+              - { name: image, label: Image, widget: image, required: false }
+              - { name: imageAlt, label: Image description (for accessibility), widget: string, required: false }
+              - { name: ctaLabel, label: Button label, widget: string }
+              - { name: ctaInquiry, label: Button goes to, widget: select, options: [{ label: Quote form, value: quote }, { label: Consulting form, value: consulting }, { label: Partnership form, value: partnership }] }
+
+  - name: projects
+    label: Projects (Our Work)
+    files:
+      - name: projects
+        label: Project portfolio
+        file: src/content/projects.json
+        fields:
+          - name: items
+            label: Projects
+            widget: list
+            summary: "{{fields.title}}, published: {{fields.published}}"
+            fields:
+              - { name: slug, label: "Page address (lowercase-with-dashes)", widget: string }
+              - { name: published, label: Published, widget: boolean, default: false }
+              - { name: title, label: Title, widget: string }
+              - { name: location, label: Location, widget: string }
+              - { name: categories, label: Categories, widget: select, multiple: true, options: [Residential, Renovations, Housing, Commercial, Panelized Construction, Community Projects] }
+              - { name: projectType, label: Project type, widget: string }
+              - { name: scope, label: Scope items, widget: list }
+              - { name: coverImage, label: Cover photo, widget: image }
+              - { name: coverAlt, label: Cover photo description, widget: string }
+              - name: gallery
+                label: Gallery
+                widget: list
+                required: false
+                fields: [{ name: src, label: Photo, widget: image }, { name: alt, label: Description, widget: string }]
+              - { name: description, label: Description, widget: text }
+              - { name: challenges, label: Challenges, widget: text, required: false }
+              - { name: solutions, label: Solutions, widget: text, required: false }
+              - { name: outcomes, label: Outcomes, widget: text, required: false }
+              - name: testimonial
+                label: Client testimonial
+                widget: object
+                required: false
+                fields:
+                  - { name: quote, label: Quote, widget: text, required: false }
+                  - { name: name, label: Name, widget: string, required: false }
+                  - { name: role, label: Role or context, widget: string, required: false }
+                  - { name: approved, label: Client approved in writing, widget: boolean, default: false }
+              - { name: completed, label: "Completed (e.g. 2027-05)", widget: string, required: false }
+
+  - name: team
+    label: Team
+    files:
+      - name: team
+        label: Team members
+        file: src/content/team.json
+        fields:
+          - name: items
+            label: People
+            widget: list
+            summary: "{{fields.name}}: {{fields.role}}"
+            fields:
+              - { name: name, label: Name, widget: string }
+              - { name: role, label: Role, widget: string }
+              - { name: bio, label: Biography, widget: text }
+              - { name: bioApproved, label: Biography approved, widget: boolean }
+              - { name: photo, label: Photo, widget: image, required: false }
+              - { name: photoAlt, label: Photo description, widget: string }
+              - { name: photoApproved, label: Photo approved, widget: boolean }
+              - { name: published, label: Show on site, widget: boolean }
+
+  - name: academy
+    label: Academy
+    files:
+      - name: academy
+        label: Programs & workshop topics
+        file: src/content/academy.json
+        fields:
+          - { name: badge, label: Approved Academy badge (optional), widget: image, required: false }
+          - { name: badgeAlt, label: Badge description, widget: string }
+          - name: programs
+            label: Programs
+            widget: list
+            summary: "{{fields.title}} ({{fields.status}})"
+            fields:
+              - { name: slug, label: Anchor, widget: string }
+              - { name: title, label: Title, widget: string }
+              - { name: status, label: Status, widget: select, options: [{ label: Registration open, value: open }, { label: In development, value: planned }, { label: Waitlist, value: waitlist }] }
+              - { name: audience, label: Who it's for, widget: string }
+              - { name: summary, label: Summary, widget: text }
+              - { name: topics, label: Topics, widget: list }
+          - name: workshopTopics
+            label: Workshop topics
+            widget: list
+            fields: [{ name: title, label: Title, widget: string }, { name: text, label: Description, widget: string }]
+      - name: workshops
+        label: Scheduled workshops & events
+        file: src/content/workshops.json
+        fields:
+          - name: items
+            label: Workshops
+            widget: list
+            summary: "{{fields.date}}: {{fields.title}}"
+            fields:
+              - { name: slug, label: ID, widget: string }
+              - { name: published, label: Published, widget: boolean, default: false }
+              - { name: title, label: Title, widget: string }
+              - { name: date, label: Date, widget: datetime, date_format: "YYYY-MM-DD", time_format: false, format: "YYYY-MM-DD" }
+              - { name: time, label: Time, widget: string }
+              - { name: location, label: Location, widget: string }
+              - { name: description, label: Description, widget: text }
+              - { name: capacity, label: Capacity, widget: string }
+              - { name: cost, label: Cost, widget: string }
+              - { name: registration, label: Registration, widget: select, options: [{ label: Open, value: open }, { label: Waitlist, value: waitlist }, { label: Full, value: full }, { label: Closed, value: closed }, { label: Register interest, value: interest }] }
+              - { name: registrationUrl, label: "Registration link (e.g. Eventbrite)", widget: string, required: false }
+
+  - name: crew
+    label: Join the Crew
+    files:
+      - name: crew
+        label: Pathways & open roles
+        file: src/content/crew.json
+        fields:
+          - name: pathways
+            label: Pathways
+            widget: list
+            fields: [{ name: title, label: Title, widget: string }, { name: text, label: Description, widget: text }]
+          - name: openings
+            label: Open roles (only real, approved vacancies)
+            widget: list
+            required: false
+            summary: "{{fields.title}}, published: {{fields.published}}"
+            fields:
+              - { name: slug, label: ID, widget: string }
+              - { name: published, label: Published, widget: boolean, default: false }
+              - { name: title, label: Title, widget: string }
+              - { name: type, label: Type, widget: string }
+              - { name: location, label: Location, widget: string }
+              - { name: summary, label: Summary, widget: text }
+              - { name: postedDate, label: Posted, widget: string }
+              - { name: closingDate, label: Closing date, widget: string, required: false }
+
+  - name: impact
+    label: Impact metrics
+    files:
+      - name: impact
+        label: Impact dashboard
+        file: src/content/impact.json
+        fields:
+          - name: items
+            label: Metrics
+            widget: list
+            summary: "{{fields.label}}: {{fields.value}}"
+            fields:
+              - { name: key, label: ID, widget: string }
+              - { name: label, label: Label, widget: string }
+              - { name: value, label: "Value (leave blank until verified)", widget: string, required: false }
+              - { name: verified, label: Verified, widget: boolean }
+              - { name: asOf, label: "As of (e.g. March 2027)", widget: string, required: false }
+              - { name: description, label: Description, widget: string }
+
+  - name: testimonials
+    label: Testimonials
+    files:
+      - name: testimonials
+        label: Testimonials
+        file: src/content/testimonials.json
+        fields:
+          - name: items
+            label: Testimonials
+            widget: list
+            required: false
+            fields:
+              - { name: quote, label: Quote, widget: text }
+              - { name: name, label: Name, widget: string }
+              - { name: context, label: Context, widget: string }
+              - { name: approved, label: Approved in writing, widget: boolean, default: false }
+
+  - name: articles
+    label: Articles
+    files:
+      - name: articles
+        label: Resources & news
+        file: src/content/articles.json
+        fields:
+          - name: items
+            label: Articles
+            widget: list
+            summary: "{{fields.date}}: {{fields.title}}"
+            fields:
+              - { name: slug, label: "Page address (lowercase-with-dashes)", widget: string }
+              - { name: published, label: Published, widget: boolean, default: false }
+              - { name: title, label: Title, widget: string }
+              - { name: category, label: Category, widget: select, options: [Women in Construction, Home Maintenance, Construction Advice, Career Development, Training and Events, Housing and Community, Company News] }
+              - { name: author, label: Author, widget: string }
+              - { name: date, label: Date, widget: datetime, date_format: "YYYY-MM-DD", time_format: false, format: "YYYY-MM-DD" }
+              - { name: excerpt, label: Short summary, widget: text }
+              - { name: featuredImage, label: Featured image, widget: image }
+              - { name: featuredImageAlt, label: Image description, widget: string }
+              - { name: seoTitle, label: SEO title (optional), widget: string, required: false }
+              - { name: seoDescription, label: SEO description (optional), widget: text, required: false }
+              - { name: body, label: Article, widget: markdown }

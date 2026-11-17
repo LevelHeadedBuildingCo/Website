@@ -1,0 +1,14 @@
+{
+  "items": [
+    {
+      "name": "Sonya",
+      "role": "Founder",
+      "bio": "Sonya brings two decades of construction experience, including project management, construction operations, estimating, team building and workforce development. Before construction, she founded one of Toronto's first shared commercial kitchens and coached more than 60 small businesses through launch. She started Level Headed to prove that a construction company can be known for both its craftsmanship and the opportunities it creates.",
+      "bioApproved": false,
+      "photo": "",
+      "photoAlt": "Portrait of Sonya, founder of Level Headed Building Co.",
+      "photoApproved": false,
+      "published": true
+    }
+  ]
+}
